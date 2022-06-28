@@ -3,9 +3,9 @@ export default function Square({ number, onClick, isWinningSquare }) {
   return (
     <button
       type="button"
-      className="square"
       onClick={onClick}
-      style={{ fontWeight: isWinningSquare ? 'bold' : 'normal' }}
+      className={`square ${isWinningSquare ? 'winning' : ' '}
+      ${number === 'X' ? 'text-green' : 'text-orange'}`}
     >
       {number}
     </button>
