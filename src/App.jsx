@@ -1,10 +1,9 @@
-import React from 'react'
-
+import React from 'react';
+import Board from './components/Board.jsx';
 const App = () => (
-  <>
-    <h1>Welcome to React Vite Micro App!</h1>
-    <p>Hard to get more minimal than this React app.</p>
-    <h1>This is a heading for React</h1>
-  </>
-)
-export default App
+  <div>
+    <h1>TIC-TAC-TOE</h1>
+    <Board />
+  </div>
+);
+export default App;
