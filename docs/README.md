@@ -1,10 +1,3 @@
-<a href="https://gitpod.io/https://github.com/OtherHorizon/tictactoe>">
-<img
-  src="https://img.shields.io/badge/Contribute%20with-Gitpod-908a85?logo=gitpod"
-  alt="Contribute with GitPod"
-/>
-</a>
-
 # Nano React App Default Javascript Template
 
 The default template project for [nano-react-app](https://github.com/nano-react-app/nano-react-app).
